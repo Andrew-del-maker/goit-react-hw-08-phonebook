@@ -1,0 +1,17 @@
+import ContactList from '../ContactList'
+import Filter from '../Filter'
+import Form from '../Form'
+
+const ContactsPage =() => {
+    return (
+        <div>
+            <h1>Phonebook</h1>
+            <Form />
+            <h2>Contacts</h2>
+            <Filter />
+            <ContactList />
+        </div>
+    )
+}
+
+export default ContactsPage;

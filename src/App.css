@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+body {
+  margin: 10px 20px;
+  font-family: "Lobster", cursive;
+}
+form {
+  margin-top: 30px;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+li,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
